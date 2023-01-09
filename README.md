@@ -1,7 +1,7 @@
 # MyRcppPackage
 Demo Rcpp Package, calculating ordinary least squares solution
 
-# Instllagion
+# Installation
 1.  OS-specific prerequisites
       - *Windows*: Install
         [RTools](https://cran.r-project.org/bin/windows/Rtools/) (not an
