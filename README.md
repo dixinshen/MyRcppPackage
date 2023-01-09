@@ -11,7 +11,7 @@ Demo Rcpp Package, calculating ordinary least squares solution
         [here](https://cran.r-project.org/bin/macosx/tools/) to install
         the required version
 2.  Install the R package [devtools](https://github.com/hadley/devtools)
-3.  Install the **xrnet** package with the *install\_github()* function
+3.  Install the **MyRcppPackage** package with the *install\_github()* function
     (optionally install potentially unstable development branch)
 
 <!-- end list -->
