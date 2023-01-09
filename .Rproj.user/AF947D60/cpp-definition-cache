@@ -1,0 +1,36 @@
+[
+    {
+        "file": "C:/Users/dshen2/OneDrive - Gilead Sciences/Documents/MyRcppPackage/src/OLS_Rcpp.cpp",
+        "file_last_write": 1672971009.0,
+        "definitions": [
+            {
+                "usr": "c:@F@OLS_Rcpp#&I#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "OLS_Rcpp(Eigen::MatrixXd &, Eigen::VectorXd &)",
+                "file": "C:/Users/dshen2/OneDrive - Gilead Sciences/Documents/MyRcppPackage/src/OLS_Rcpp.cpp",
+                "line": 6,
+                "column": 17,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/dshen2/OneDrive - Gilead Sciences/Documents/MyRcppPackage/src/rcpp_hello_world.cpp",
+        "file_last_write": 1672969745.0,
+        "definitions": [
+            {
+                "usr": "c:@F@rcpp_hello_world#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rcpp_hello_world",
+                "file": "C:/Users/dshen2/OneDrive - Gilead Sciences/Documents/MyRcppPackage/src/rcpp_hello_world.cpp",
+                "line": 6,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    }
+]
