@@ -1,5 +1,5 @@
 {
-    "path": "~/MyRcppPackage",
+    "path": "~/MyRcppPackage/tests/testthat",
     "sortOrder": [
         {
             "columnIndex": 2,
