@@ -12,7 +12,6 @@ Demo Rcpp Package, calculating ordinary least squares solution
         the required version
 2.  Install the R package [devtools](https://github.com/hadley/devtools)
 3.  Install the **MyRcppPackage** package with the *install\_github()* function
-    (optionally install potentially unstable development branch)
 
 <!-- end list -->
 
@@ -32,5 +31,10 @@ head(Boston)
 X <- model.matrix(~ ., data = subset(Boston, select=-medv))
 y <- Boston$medv
 
+beta_lm <- lm(medv ~ ., data = Boston)$coefficients
+beta_OLS_v1 <- OLS_v1(X, y)
+beta_OLS_v2 <- OLS_v1(X, y)
 beta_Rcpp <- OLS_Rcpp(X, y)
+
+cbind(beta_lm, beta_OLS_v1, beta_OLS_v2, beta_Rcpp)
 ```
